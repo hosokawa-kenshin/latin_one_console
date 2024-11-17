@@ -1,0 +1,92 @@
+.InboxForm {
+    width: 100%;
+    max-width: 800px;
+    /* 最大幅を800pxに拡大 */
+    margin: 50px auto;
+    padding: 30px;
+    /* パディングを少し増やす */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.InboxForm .title {
+    text-align: center;
+    font-size: 32px;
+    /* タイトルを少し大きく */
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.InboxForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.InboxForm label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    /* ラベルの下のスペースを増やす */
+    color: #555;
+}
+
+.InboxForm input[type="text"],
+.InboxForm select {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* 入力フィールドのパディングを増やす */
+    margin-bottom: 18px;
+    /* マージンも少し増やす */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    /* フォントサイズを大きく */
+    transition: border-color 0.3s ease;
+}
+
+.InboxForm input[type="text"]:focus,
+.InboxForm select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.InboxForm input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    /* 送信ボタンも大きく */
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    /* フォントサイズを大きく */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.InboxForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.InboxForm button {
+    width: 100%;
+    padding: 14px;
+    /* ホームボタンも大きく */
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    /* フォントサイズを大きく */
+    cursor: pointer;
+    margin-top: 12px;
+    /* ボタン同士のスペースを広げる */
+    transition: background-color 0.3s ease;
+}
+
+.InboxForm button:hover {
+    background-color: #5a6268;
+}

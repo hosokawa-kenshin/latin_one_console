@@ -1,0 +1,91 @@
+.excelform {
+    width: 100%;
+    max-width: 800px; /* 最大幅を800pxに拡大 */
+    margin: 50px auto;
+    padding: 30px; /* パディングを少し増やす */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.excelform h1 {
+    text-align: center;
+    font-size: 32px; /* タイトルを少し大きく */
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.excelform form {
+    display: flex;
+    flex-direction: column;
+}
+
+.excelform label {
+    font-weight: bold;
+    margin-bottom: 8px; /* ラベルの下のスペースを増やす */
+    color: #555;
+}
+
+.excelform input[type="file"] {
+    display: none; /* デフォルトのファイル入力を非表示 */
+}
+
+.excelform .custom-file-upload {
+    display: inline-block;
+    padding: 14px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px; /* フォントサイズを大きく */
+    cursor: pointer;
+    margin-bottom: 18px; /* マージンも少し増やす */
+    transition: background-color 0.3s ease;
+    text-align: center; /* 中央揃え */
+}
+
+.excelform .custom-file-upload:hover {
+    background-color: #0056b3; /* ホバー時の背景色 */
+}
+
+.excelform span {
+    display: block;
+    margin-bottom: 18px; /* ファイル名表示の下にスペースを追加 */
+    font-size: 16px;
+    color: #555;
+}
+
+.excelform button[type="submit"] {
+    width: 100%;
+    padding: 14px; /* アップロードボタンのパディングを増やす */
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px; /* フォントサイズを大きく */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 12px; /* ボタンの下にスペースを追加 */
+}
+
+.excelform button[type="submit"]:hover {
+    background-color: #0056b3; /* ホバー時の背景色 */
+}
+
+.excelform button {
+    width: 100%;
+    padding: 14px; /* ホームボタンのパディングを増やす */
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px; /* フォントサイズを大きく */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.excelform button:hover {
+    background-color: #5a6268; /* ホームボタンのホバー時の背景色 */
+}
